@@ -1,18 +1,29 @@
 *{
 	font-family:"宋体";
-	font-size:15px;
 }
 /*head*/
-header{
-	display: :inline-block;
+nav{
 	height:54px;
+	width:100%;
 	line-height:54px;
 	background-color:#003333;/*green*/
-	margin:0;
 }
-.text{
-	text-align: left;
+nav ul{
+	position: absolute;
+	right: 30px;
+	top: 5px;
+
 }
+nav li{
+	height: 54px;
+	line-height: 20px;
+	float: left;
+	margin-left: 40px
+}
+nav ul li a{
+	color: white;
+}
+
 /*head*/
 
 body{
