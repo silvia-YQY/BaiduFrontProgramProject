@@ -1,0 +1,28 @@
+*{
+	font-family: "宋体"； 
+}
+
+body{
+	background-color:grey;
+
+}
+nav{
+	height: 54px;
+	/*width: 100%;*/
+	background-color: black;
+}
+nav ul{
+	position: absolute;
+	right: 30px;
+}
+nav li{
+	height: 54px;
+	float: left;
+	margin-left:;
+
+	
+}
+
+nav ul li a{
+	color:white;
+}
