@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1.4</title>
+	<style type="text/css">
+		.box-set {
+			position: absolute;
+			top:50%;
+			left:50%;
+			-webkit-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+         	-ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+  			background-color: #ccc;
+  			width:400px;
+  			min-height: 200px;
+  			overflow: hidden;
+		}
+		.box1 {
+			position: absolute;
+			top:-50px;
+			left:-50px;
+			width:100px;
+			height: 100px;
+			background-color: #fc0;
+ 			-webkit-border-radius:50px;
+		}
+		.box2 {
+			position: absolute;
+			right:-50px;
+			bottom:-50px;
+			width:100px;
+			height: 100px;
+			background-color: #fc0;
+ 			-webkit-border-radius:50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box-set">
+		<div class="box1"></div>
+		<div class="box2"></div>
+	</div>	
+
+</body>
+</html>
