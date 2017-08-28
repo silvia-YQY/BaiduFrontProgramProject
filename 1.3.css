@@ -1,69 +1,48 @@
-*{
-	font-family:"宋体";
-	font-size: 20px;
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-#qk{
-	position: absolute;
-	padding: 20px;
-	margin:20px;
-	height: 70%;
-	border:1px solid #000;
-	background-color: #eee; 
-}
-/*#qk .tdmc .tdkswz .grkj{
-	background: #ffffff;
-	padding: 20px;
-}*/
-/*团队名称*/
-#qk .tdmc {
-	/*position: absolute;
-	background-color: #ffffff;*/
-	float: left;
-	padding: 20px;
-	margin:20px;
-	width: 200px;
-	height: 120px;
-	border:1px solid #000;
-	background-color: #ffffff
+.container {
+    background-color: #eee;
+    border: 1px solid #999;
+    margin: 20px;
 }
 
-#qk .tdmc img{
-	border:1px solid #000;
-	margin: 20px;
-	height: 80px;
-	width: 80px;
-}
-/*团队名称*/
-/*团队介绍*/
-#qk .tdkswz{
-	position: absolute;
-	left:300px;
-	margin:20px;
-	height: 500px;
-	width: 600px;
-	border:1px solid #000;
-	background-color: #ffffff
-
+.container > div {
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: top;
 }
 
-#qk .tdkswz p{
-	height: 15px;
-	line-height: 23px;
-	padding: 20px;
+.left {
+    width: 200px;
 }
-/*团队介绍*/
-/*logo*/
-/*#qk .grkj> div{
-	float: left;
-	width:120px;
-	height: 400px;
-	border:1px solid #000;
-}*/
-#qk div img{
-	float: left;
-	height: 80px;
-	width: 80px;
-	margin:20px 20px 0px 20px;
+
+.main {
+    margin: 0 20px;
+    width: calc(100% - 200px - 120px - 80px);
 }
-/*logo*/
+
+.right {
+    width: 120px;
+}
+
+div {
+    padding: 20px;
+}
+
+span {
+    vertical-align: top;
+}
+
+a img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+a:nth-child(1) img {
+    margin-top: 0px; 
+}
