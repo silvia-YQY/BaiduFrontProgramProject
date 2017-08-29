@@ -1,0 +1,29 @@
+body{
+	width: 980px;
+	height: 1386px;
+}
+
+nav{
+	position: absolute;
+	left:247px;
+	width: 110px;
+	height: 61px;
+	background-color:#d45c5b; 
+}
+
+nav p{
+	position: absolute;
+	top:30px;
+	left:15px;
+	font-size: 12px ;
+	color:#fff;
+	font-family: 黑体 Serif;
+}
+
+nav hr{
+	position: absolute;
+	top:54px;
+	width: 892px;
+	height: 1px;
+	color:#938e8c;
+}
