@@ -1,28 +1,168 @@
 *{
 	font-family: "宋体"； 
 }
-
+/*栏目*/
 body{
 	background-color:grey;
-
+	margin: 0;
 }
 nav{
 	height: 54px;
-	/*width: 100%;*/
+	width: 100%;
 	background-color: black;
 }
 nav ul{
 	position: absolute;
+	top:5px;
 	right: 30px;
+
 }
 nav li{
 	height: 54px;
 	float: left;
 	margin-left:;
-
-	
+	padding-right:10px;
 }
 
 nav ul li a{
+	font-size: 15px;
 	color:white;
 }
+/*栏目*/
+
+/*.ONE{
+    width: calc(100% - 400px - 40px);
+
+}*/
+
+
+/*第一栏*/
+.first{
+	background-color: white; 
+	border-radius:5px;
+	padding: 20px;
+	margin:20px;
+	width: calc(100% - 400px - 160px);
+}
+
+
+/*第一栏*/
+/*第2栏*/
+.second{
+	background-color: white; 
+	width: calc(100% - 400px - 160px);
+	border-radius:5px;
+	padding: 20px;
+	margin:20px;
+}
+
+.second img{
+	height: 200px;
+}
+/*第2栏*/
+/*第3栏*/
+.three{
+	background-color: white; 
+	width: calc(100% - 400px - 160px);
+	border-radius:5px;
+	padding: 20px;
+	margin:20px;
+}
+.three div{
+	display: inline-block;
+	margin:20px;
+	width:150px;
+	border:1px solid #000;
+	text-align: center;
+}
+.three div img{
+	height: 120px;
+}
+.three div p{
+	font-size:10px;
+}
+
+
+/*第3栏*/
+/*第4栏*/
+.four{
+	background-color: white; 
+	width: calc(100% - 400px - 160px);
+	border-radius:5px;
+	padding: 20px;
+	margin:20px;
+}
+
+.four table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.four table th,td{
+	border: 1px solid black;
+}
+
+.four tr:last-child{
+	background-color:grey; 
+}
+.four tr:first-child{
+	background-color: #000;
+	color: #ffffff;
+}
+
+/*第4栏*/
+/*第5栏*/
+.five{
+	position: absolute;
+	top:54px;
+	right: 15px;
+	width: 400px;
+	background-color: white; 
+	border-radius:5px;
+	padding: 20px;
+	margin:20px;
+}
+
+.five label{
+	font-size: 14px;
+	position: absolute;
+	right: 55%;
+
+}
+
+.five input,select{
+	position: absolute;
+	left: 50%;
+}
+
+.five p{
+	text-align: center;
+}
+
+.five a{
+	position: absolute;
+	left:55%;
+}
+
+.five textarea{
+	text-align: center;
+}
+#sub{
+	position: relative;
+	left:50px;
+	font-size: 18px;
+	color: #ffffff;
+	background-color:pink;
+	width: 300px;
+	height: 25px;
+}
+/*第5栏*/
+/*尾*/
+footer{
+	background-color: black;
+	line-height: 40px;
+	height: 40px;
+	color:white;
+	text-align: center;
+}
+/*尾*/
