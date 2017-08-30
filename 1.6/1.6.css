@@ -1,17 +1,23 @@
-body{
+.qj{
+	top:0;
 	width: 980px;
 	height: 1386px;
+/*	border:1px solid #000;*/
+	text-align: center;
+	margin:0 auto;
 }
 
+/*眉头*/
 nav{
 	position: absolute;
-	left:247px;
+	top:0;
+	left:260px;
 	width: 110px;
 	height: 61px;
 	background-color:#d45c5b; 
 }
 
-nav p{
+nav .p1{
 	position: absolute;
 	top:30px;
 	left:15px;
@@ -20,10 +26,393 @@ nav p{
 	font-family: 黑体 Serif;
 }
 
+nav .p2{
+	position: absolute;
+	top:30px;
+	left:840px;
+	font-size: 12px ;
+	color:#d45d5c;
+	font-family: 黑体 Serif;
+}
+
 nav hr{
 	position: absolute;
 	top:54px;
 	width: 892px;
 	height: 1px;
-	color:#938e8c;
+	background-color:#938e8c;
+}
+
+
+/*眉头*/
+/*图1*/
+.pic1 img{
+	display: inline-block;
+	position: absolute;
+	top:84px;
+	left: 260px;
+	height: 301px;
+	width: 641px;
+}
+.pic111{
+	position: absolute;
+	top:84px;
+	left: 710px;
+	width: 191px;
+	height: 301px;
+	background-color: #cc8091;
+	opacity: 0.5;
+}
+.pic112{
+	position: absolute;
+	top:84px;
+	left: 260px;
+	width: 191px;
+	height: 301px;
+	background-color: green;
+	opacity: 0.5;
+}
+.text1 hr{
+	position: absolute;
+	top:77px;
+	left:935px;
+	width: 203px;
+	height: 1px;
+	background-color:#cc8091;
+}
+.pic12{
+	position: absolute;
+	top:90px;
+	left:935px;
+	color: #000000;
+	font-size: 24px;
+	text-align: left;
+	line-height: 10px;
+	border:1px solid #ffffff;/*固定后删*/
+	width: 203px;
+}
+.pic121{
+	text-decoration: underline;
+}
+.pic13{
+	font-size: 12px;
+	color:#676767;
+	font-family: 楷体 Serif;
+	font-style: italic;
+	line-height: 12px;
+}
+
+.pic14{
+	font-size: 100px;
+	font-family: 微软雅黑 Serif;
+	font-style: italic;
+	color:#75b86b;
+	margin-top:50px;
+}
+.pic141{
+	position: relative;
+	top:-15px;
+}
+.pic15{
+	font-size: 55px;
+	font-family: 微软雅黑 Serif;
+	color:#cc8091;
+}
+.pic16{
+	position: relative;
+	top:-70px;
+	left:90px;
+	font-size: 21px;
+	font-family: 微软雅黑 Serif;
+	color:#cc8091;
+}
+.pic17{
+	position: relative;
+	top:-80px;
+	left: 90px;
+	font-size: 12px;
+	font-family: 微软雅黑 Serif;
+	color:#cc8091;
+}
+
+/*图1*/
+/*第二段*/
+.text2 b{
+	font-size: 20px;
+	text-decoration: underline;
+}
+.text21{
+	position: absolute;
+	top:400px;
+	left: 260px;
+	width: 200px;
+	font-size: 15px;
+	border:1px solid #000;
+}
+.text22{
+	position: absolute;
+	top:400px;
+	left: 500px;
+	width: 200px;
+	font-size: 15px;
+	border:1px solid #000;
+}
+.text21 b{
+	text-align: left;
+	color:green;
+}
+.text22 b{
+	color:#d2994f;
+}
+.text23{
+	position: absolute;
+	top:400px;
+	left: 740px;
+	width: 200px;
+	font-size: 15px;
+	border:1px solid #000;
+}
+.text23 b{
+	color:#cc8091;
+}
+.text24{
+	font-size: 15px;
+	line-height: 16px;
+	position: absolute;
+	top:565px;
+	left: 740px;
+}
+
+.text25{
+	font-size: 15px;
+	font-style: italic;
+	color:#cd4a48;
+	line-height: 16px;
+	position: absolute;
+	top:565px;
+	left: 825px;
+	opacity: 0.7;
+}
+
+.text31{
+	position: absolute;
+	top:630px;
+	left: 260px;
+	width: 400px;
+	line-height: 36px;
+	text-align: left;
+    /*border: 1px solid #000;*/
+}
+.text311{
+	font-size: 70px;
+	font-style: italic;
+	color:#f5e327;
+	font-family: 宋体 Serif;
+}
+
+.text31 a{
+	text-align: left;
+	font-size: 42px;
+	color:#11456b;
+	font-family: 黑体 Serif;
+}
+
+.text31 hr{
+	width: 415px;
+	height: 2px;
+	background-color: #938e8c;
+}
+
+.text32{
+	width: 415px;
+	font-size: 15px;
+	color: #000;
+	font-family: 宋体 Serif;
+	line-height:25px;
+}
+.text32 span{
+	height: 70px;
+	font-size: 70px;
+	color: #f5e327;
+	font-family: 宋体 Serif;
+	float: left;
+	padding-top:20px; 
+}
+.text32 img{
+	float: right;
+}
+/*第二段*/
+
+/*第三段*/
+.pic3{
+	position: absolute;
+	top:700px;
+	left:710px;
+	/*border:1px solid #000;*/
+}
+
+.pic3 img{
+	width: 458px;
+	height: 275px;
+}
+
+.pic31{
+	position: relative;
+	top:-65px;
+	width: 458px;
+	height: 61px;
+	background-color: #000;
+	opacity:0.4; 
+}
+
+.pic32{
+	position: relative;
+	top:-140px;
+	left: 50px;
+	height: 44px;
+	border-left: 3px solid #72b16a;
+}
+
+.pic32 p{
+	text-indent: 20px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 26px;
+	font-family: 微软雅黑 Serif;
+}
+
+.pic32 a{
+	position: relative;
+	top:-50px;
+	left: -40px;
+	color: #72b16a;
+	font-style: italic;
+	font-size: 15px;
+	font-family: 微软雅黑 Serif;
+}
+.pic33{
+	position: relative;
+	top:-100px;
+	background-color: #99FFCC;
+	width: 459px;
+	height: 318px;
+	line-height: 20px;
+}
+.pic3311{
+	position: relative;
+	top:10px;
+	left: 50px;
+}
+.pic3312 {
+	position: relative;
+	top:-95px;
+	left: -50px;
+	font-size: 16px;
+	color:#5a5b5b;
+	font-family: 宋体 Serif;
+
+}
+.pic3313{
+	position: relative;
+	top:-210px;
+	left: 150px;
+	font-size: 12px;
+	color:#5a5b5b;
+	font-family: 宋体 Serif;
+	font-style: italic;
+	line-height: 30px;
+}
+.triangle-up {
+	text-align: left;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid blue;
+}
+.pic332{
+	position: relative;
+	top:-280px;
+	background-color: #d45c5b;
+	width: 260px;
+	height: 160px;
+	line-height: 20px;
+}
+.pic332 p{
+	position: relative;
+	top:70px;
+	left:-90px;
+	color: white;
+	font-size: 110px;
+}
+.pic3320{
+	float: left;
+	position: absolute;
+	top:35px;
+	left:80px;
+	height: 86px;
+	border: 1px solid #fff;
+}
+.pic3321{
+	position: absolute;
+	top:30px;
+	left: 90px;
+	width: 150px;
+	height: 86px;
+}
+.pic3321 p:first-child{
+	position: absolute;
+	top:-10px;
+	left:0px;
+	width: 150px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	font-style: italic;
+}
+
+.pic3321 p:last-child{
+	position: absolute;
+	top:45px;
+	left:0px;
+	width: 150px;
+	color: #fff;
+	font-size: 5px;
+	line-height: 12px;
+	text-align: left;
+
+}
+
+.pic3322{
+	position: absolute;
+	top:120px;
+	left:200px;
+	width: 150px;
+	font-size: 50px;
+}
+.pic3323{
+	position: absolute;
+	top:250px;
+	left:350px;
+	width: 150px;
+	font-size: 50px;
+}
+.pic3324{
+	position: absolute;
+	top:170px;
+	left:300px;
+	width: 120px;
+	font-size: 15px;
+}
+/*第三段*/
+
+footer hr{
+	position: absolute;
+	left:260px;
+	bottom: -650px;
+	width: 900px;
+	height: 1px;
+	background-color: #938e8c;
+
 }
