@@ -410,7 +410,7 @@ nav hr{
 footer hr{
 	position: absolute;
 	left:260px;
-	bottom: -650px;
+	top: 1400px;
 	width: 900px;
 	height: 1px;
 	background-color: #938e8c;
