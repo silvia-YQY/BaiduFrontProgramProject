@@ -453,6 +453,7 @@ nav .lg{
 	width: 350px;
 	height: 40px;
 	margin: 8px 15px;
+	color: grey;
 	background-color: #ededee;
 }
 .ninepartTP textarea{
@@ -461,6 +462,7 @@ nav .lg{
 	width: 740px;
 	height: 100px;
 	margin-top: 20px;
+	color: #ccc;
 }
 
 .ninepartTP .submit{
