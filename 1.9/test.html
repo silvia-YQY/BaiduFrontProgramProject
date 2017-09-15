@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<style>
+body,p{margin: 0;}
+h2{margin: 0;font-size:100%;}
+ul{margin: 0;padding: 0;list-style: none;}   
+/*a{text-decoration: none;color:inherit;}*/
+.box{width: 572px;border: 1px solid #999;overflow: hidden;}
+.nav{margin-left: -1px;font: 14px "微软雅黑";overflow: hidden;background-color: #f1f1f1;}
+.navI{float: left;width: 33.333%;box-sizing: border-box;}
+.navI-tit{line-height: 40px;text-align: center;cursor: pointer;border-left: 1px solid #cecece;border-bottom: 1px solid #cecece;}
+.navI-txt{width: 572px;height:200px;text-indent:2em;line-height: 2;background:#fff;/*border: 1px solid #000;*/}
+.ml1{margin-left: -100%;}
+.ml2{margin-left: -200%;}
+.navI_active{position:relative;z-index:1;}
+/*重点代码*/
+.navI:hover{position:relative;z-index:1;}
+.navI:hover .navI-tit{background:#fff;border-bottom:none;}
+</style>
+</head>
+<body>
+<div class="first">
+                <div class="first1">
+                    <p>第一组项目</p>
+                </div>
+                <div class="box">
+                    <ul class="nav">
+                        <li class="navI navI_active">
+                            <h2>项目一</h2>
+                            <div class="tab item1">
+                                <table cellspacing="0" class="navI-txt">
+                                    <tbody>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="project" class="project">
+                            <span>项目二</span>
+                            <div class="tab item2">
+                                <table cellspacing="0">
+                                    <tbody>
+                                        <tr><td>购买材料一</td><td>购买材料2</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料2</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料2</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料2</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料2</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="project" class="project">
+                            <span>项目三</span>
+                            <div class="tab item3">
+                                <table cellspacing="0">
+                                    <tbody>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料3</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料3</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料3</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料3</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料一</td><td>购买材料3</td><td>购买材料一</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="project" class="project">
+                            <span>项目四</span>
+                            <div class="tab item4">
+                                <table cellspacing="0">
+                                    <tbody>
+                                        <tr><td>购买材料一</td><td>购买材料4</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料4</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料4</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料4</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料一</td><td>购买材料4</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="roject" class="project">
+                            <span>项目五</span>
+                            <div class="tab item5">
+                                <table cellspacing="0">
+                                    <tbody>
+                                        <tr><td>购买材料5</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料5</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料5</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料5</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                        <tr><td>购买材料5</td><td>购买材料一</td><td>购买材料一</td><td>购买材料一</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+    </body>
+</html>
